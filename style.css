@@ -1,1 +1,48 @@
-/* Start coding here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-section {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .welcome-box {
+    background-color: hsla(0, 50%, 100%, 0.5);
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    text-align: center;
+  }
+  
+  .welcome-box h2 {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 15px;
+  }
+  
+  .welcome-box p {
+    font-size: 13px;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+  }
