@@ -1,1 +1,44 @@
-/* Start coding here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* พื้นหลังแบบไล่สี (Gradient) โทนชมพู-ม่วง-ฟ้า */
+    background: linear-gradient(to right,
+    hsl(0, 100%, 70%) ,
+    hsl(240, 100%, 70%)
+    );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    /* กล่องข้อความตรงกลาง */
+    background-color: hsla(0, 50%, 100%, 0.5);
+    padding: 30px;
+    border-radius: 8px;
+    width: 500px;
+    
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    color: #222;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify; /* จัดข้อความแบบกระจายเต็มบรรทัดเหมือนในภาพ */
+}/* Start coding here */
